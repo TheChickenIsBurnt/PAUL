@@ -18,10 +18,12 @@ if val == "add":
   key = input("Key: ")
   value = input("Value: ")
   db[key] = value
+  print("Created key " + key + " with value " + value + ".")
 elif val == "del":
   print(" ")
   delkey = input("Key: ")
   del db[delkey]
+  print("deleted key " + delkey + ".")
 elif val == "list":
   allkeys = db.keys() 
   print(allkeys)
