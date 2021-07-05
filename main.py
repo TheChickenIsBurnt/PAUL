@@ -15,7 +15,7 @@ __author__ = "CLYDE"
 reddit = praw.Reddit(
   client_id=os.environ['clientid'],
   client_secret=os.environ['clientsecret'],
-  user_agent="<console:paul:1.2> (by /u/Among_Joe)",
+  user_agent="<console:paul:1.3.1> (by /u/Among_Joe)",
   username="Among_Joe",
   password=os.environ['password']
 )
