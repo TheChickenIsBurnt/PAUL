@@ -12,3 +12,5 @@ Added paul 1.3.2. Paul server is now constructed, and is used to add data to the
 Added paul 1.3.3. Made paul server more specific in its output.
 
 Jul 5:
+
+Added paul 1.3.4. Made paul server now have the ability to create files.
