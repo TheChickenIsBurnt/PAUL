@@ -1,24 +1,30 @@
 ###
-# PAUL BOT
+# PAUL BOT (SECURE EDITION)
 ###
 
 # Libraries
 
 import praw
 import os
-
+from replit import db
 
 # Connection
 
-__author__ = "CLYDE"
+__author__ = "YOUR NAME HERE"
+
+print("WELCOME TO PAUL SECURE")
 
 reddit = praw.Reddit(
-  client_id=os.environ['clientid'],
-  client_secret=os.environ['clientsecret'],
-  user_agent="<console:paul:1.3.1> (by /u/Among_Joe)",
-  username="Among_Joe",
-  password=os.environ['password']
+  client_id=os.getenv("CLIENT_ID"),
+  client_secret=os.getenv("CLIENT_SECRET"),
+  user_agent=os.getenv("USER_AGENT"),
+  username=os.getenv("USER_NAME") # put your uname here
+  password=os.getenv("PASSWORD")
 )
+
+# variables
+
+
 
 # definitions
 
@@ -30,7 +36,11 @@ def paul(msg):
 
 # Functions
 
-paul("Welcome to Paul. Please input the subreddit you would like to collect data from.")
+print("Welcome to Paul Secure v1.0. Because this is paul secure, please enter in your info before entering the db. ")
+uname = input("USERNAME: ")
+if uname == 
+
+paul("Welcome to Paul Secure. Please input the subreddit you would like to collect data from.")
 the_sub = input(" ")
 paul("How much posts will you like to read? (enter an integer)")
 post_amount = input(" ")

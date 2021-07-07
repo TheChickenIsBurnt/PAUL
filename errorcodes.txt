@@ -1,3 +1,0 @@
-List of error codes:
-
-Error code 100: unknown response
